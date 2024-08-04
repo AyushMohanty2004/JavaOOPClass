@@ -1,0 +1,16 @@
+public class Passbyvalexp
+{
+int a=100;
+void update(int a)
+{
+a=a+100;
+
+}
+public static void main(String args[])
+{
+Passbyvalexp p=new Passbyvalexp();
+System.out.println(" Value (before change)="+p.a);
+a=p.update(500);
+System.out.println(" Value (after change)="+p.a);
+}
+}
